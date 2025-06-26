@@ -1,9 +1,3 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
-
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -45056,7 +45050,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 0 auto;
+  margin: 44px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -45071,7 +45065,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 214px;
   height: 80px;
-  margin: -36px auto 22px 22px;
+  margin: -58px auto 22px 22px;
 }
 .u-header .u-sheet-2 {
   min-height: 100px;
@@ -45083,11 +45077,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-layout-cell-1 {
-  min-height: 455px;
+  min-height: 581px;
 }
 
 .u-header .u-container-layout-1 {
-  padding: 26px 30px 26px 0;
+  padding: 0 30px 0 0;
 }
 
 .u-header .u-text-1 {
@@ -45100,11 +45094,11 @@ a.u-link.u-text-hover-grey-90:hover {
   font-style: italic;
   text-transform: uppercase;
   font-size: 6rem;
-  margin: 1px 0 0;
+  margin: 0;
 }
 
 .u-header .u-layout-cell-2 {
-  min-height: 455px;
+  min-height: 581px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -45118,13 +45112,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-2 {
   font-size: 1.25rem;
-  margin: 39px 0 0 8px;
+  margin: 51px 0 0 9px;
 }
 
 .u-header .u-btn-1 {
   background-image: linear-gradient(to right, #dadcd7, #dadcd7);
   font-weight: 700;
-  margin: 39px 15px 0 auto;
+  margin: 27px 15px 0 auto;
   padding: 14px 30px;
 }
 
@@ -45132,6 +45126,8 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   margin-left: 0;
   vertical-align: 0px;
+  width: 16px;
+  height: 22px;
 }
 .u-header .u-sheet-3 {
   min-height: 100px;
@@ -45139,6 +45135,12 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-right: 0;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 20px;
+    filter: brightness(0.9);
   }
 }
 @media (max-width: 1199px) {
@@ -45147,7 +45149,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-layout-cell-1 {
-    min-height: 375px;
+    min-height: 479px;
   }
 
   .u-header .u-text-1 {
@@ -45155,11 +45157,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-layout-cell-2 {
-    min-height: 375px;
+    min-height: 479px;
   }
 
   .u-header .u-text-2 {
-    margin-right: 0;
     margin-left: 0;
   }
 
@@ -45174,20 +45175,12 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 100px;
   }
 
-  .u-header .u-container-layout-1 {
-    padding-left: 0;
-  }
-
   .u-header .u-layout-cell-2 {
     min-height: 100px;
   }
 }
 
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    margin-top: 20px;
-  }
-}
+
 @media (max-width: 767px) {
   .u-header .u-sheet-2 {
     min-height: 120px;
@@ -45211,10 +45204,39 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 174px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-text-1 {
     font-size: 2.25rem;
+  }
+
+  .u-header .u-layout-cell-2 {
+    min-height: 470px;
+  }
+
+  .u-header .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-header .u-text-2 {
+    width: auto;
+    margin-top: 6px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: 37px;
+    margin-right: 6px;
   }
 }
 
@@ -45254,6 +45276,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-text-1 {
     width: 340px;
   }
+}
+
+.u-text, .u-title, .u-body, .u-font-default, .u-font-style {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
  /*begin-variables base-font-size*/ 
